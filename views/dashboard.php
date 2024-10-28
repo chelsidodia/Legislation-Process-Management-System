@@ -10,7 +10,7 @@ $username = getSessionUsername();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Legislation System Dashboard</title>
     <style>
-        /* Reset styles */
+        
         * {
             margin: 0;
             padding: 0;
@@ -18,7 +18,7 @@ $username = getSessionUsername();
             font-family: Arial, sans-serif;
         }
 
-        /* Body styling */
+        
         body {
             display: flex;
             min-height: 100vh;
@@ -26,7 +26,7 @@ $username = getSessionUsername();
             color: #333;
         }
 
-        /* Sidebar styling */
+        
         .sidebar {
             width: 250px;
             background: linear-gradient(180deg, black,#642f2f);
@@ -40,14 +40,14 @@ $username = getSessionUsername();
             height: 100%;
         }
 
-        /* Logo and heading */
+        
         .sidebar h1 {
             font-size: 22px;
             margin-bottom: 30px;
             text-align: center;
         }
 
-        /* User section */
+        
         .user-section {
             text-align: center;
             margin: 40px auto;
@@ -80,7 +80,7 @@ $username = getSessionUsername();
             display: inline-block;
         }
 
-        /* Navigation links */
+        
         .nav-links {
             width: 100%;
             list-style: none;
@@ -105,7 +105,7 @@ $username = getSessionUsername();
             background-color: rgba(255, 255, 255, 0.2);
         }
 
-        /* Logout button */
+        
         .logout-btn {
             margin-top: auto;
             color: #fff;
@@ -115,14 +115,14 @@ $username = getSessionUsername();
             cursor: pointer;
         }
 
-        /* Main content */
+        
         .main-content {
             margin-left: 250px;
             padding: 20px;
             width: calc(100% - 250px);
         }
 
-        /* Header */
+        
         .header {
             display: flex;
             justify-content: space-between;
@@ -169,7 +169,7 @@ $username = getSessionUsername();
             display: block;
         }
 
-        /* Dashboard widgets */
+        
         .dashboard-widgets {
             margin-top: 20px;
             display: flex;
@@ -190,7 +190,7 @@ $username = getSessionUsername();
             font-size: 18px;
         }
 
-        /* Background Image */
+        
         body {
             
         }
@@ -216,35 +216,35 @@ $username = getSessionUsername();
 </head>
 <body>
 
-    <!-- Sidebar -->
+    
     <div class="sidebar">
         <h1>Legislation System</h1>
         
-        <!-- User Profile Section -->
+        
         <div class="user-section">
             <div class="user-image"></div> 
             <div class="user-name"><?php echo htmlspecialchars($username); ?></div>
             <div class="user-tag">Administrator</div>
-    <!-- MP, Reviewer, Administrator -->
+    
         </div>
 
-        <!-- Navigation Links -->
+        
         <ul class="nav-links">
             <li><a href="bill.php">Manage Bills</a></li>
             <li><a href="voting.php">Vote on Bills</a></li>
         </ul>
         
-        <!-- Logout -->
+        
         <button class="logout-btn">Log out</button>
     </div>
 
-    <!-- Main Content -->
+    
     <div class="main-content">
-        <!-- Header with Welcome and Notifications -->
+        
         <div class="header">
             <h2>Welcome back, <?php echo htmlspecialchars($username); ?>!</h2>
             <div class="notification-icon">
-                🔔 <!-- Replace with notification icon -->
+                🔔 
                 <div class="notif-dropdown">
                 <ul>
                     <?php
@@ -266,11 +266,11 @@ $username = getSessionUsername();
             </div>
         </div>
 
-        <!-- Subtitle -->
+        
          <br>
         <p>Take a look on what's happening!</p>
 
-        <!-- Dashboard Widgets -->
+        
         <div class="dashboard-widgets">
             <div class="widget widget-1">
                 <h2>Legislation System</h2>

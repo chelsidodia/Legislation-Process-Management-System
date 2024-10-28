@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Manage Bills</title>
     <style>
-        /* Reset styles */
+        
         * {
             margin: 0;
             padding: 0;
@@ -13,7 +13,7 @@
             font-family: Arial, sans-serif;
         }
 
-        /* Body styling */
+        
         body {
             background-color: #f4f4f9;
             color: #333;
@@ -26,7 +26,7 @@
             background-size: cover;
         }
 
-        /* Container for main content */
+        
         .container {
             width: 100%;
             max-width: 800px;
@@ -37,14 +37,14 @@
             margin-top: 20px;
         }
 
-        /* Header styling */
+        
         h2, h3 {
             color: #333;
             margin-bottom: 15px;
             text-align: center;
         }
 
-        /* Form styling */
+        
         form {
             display: flex;
             flex-direction: column;
@@ -72,7 +72,7 @@
             min-height: 80px;
         }
 
-        /* Button styling */
+        
         button[type="submit"] {
             padding: 10px 20px;
             background-color: #642f2f;
@@ -88,7 +88,7 @@
             background-color: #5b2929;
         }
 
-        /* Existing Bills section */
+        
         h3 {
             margin-top: 20px;
         }
@@ -127,10 +127,10 @@
 <body>
 
     <div class="container">
-        <!-- Page Title -->
+        
         <h2>Bill Management</h2>
 
-        <!-- Create Bill Form -->
+        
         <form method="POST" action="../routes.php?action=create_bill">
             <label for="title">Title:</label>
             <input type="text" name="title" id="title" required>
@@ -147,7 +147,7 @@
             <button type="submit">Create Bill</button>
         </form>
 
-        <!-- Existing Bills Section -->
+        
         <h3>Existing Bills</h3>
         <ul>
             <?php

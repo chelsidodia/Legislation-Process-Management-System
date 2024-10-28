@@ -2,7 +2,7 @@
 require_once '../session_helper.php';
 $username = getSessionUsername();
 
-// Fetch the bill ID from the URL and retrieve bill data
+
 $billId = $_GET['id'];
 $bills = json_decode(file_get_contents('../data/bills.json'), true);
 $votes = json_decode(file_get_contents('../data/votes.json'), true);
@@ -20,7 +20,7 @@ if (!$bill) {
     exit;
 }
 
-// Handle voting
+
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $voteOption = $_POST['vote_option'];
 
@@ -44,7 +44,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bill Review</title>
     <style>
-        /* Use same style as voting.php */
+        
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f9;

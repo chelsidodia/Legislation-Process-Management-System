@@ -3,7 +3,7 @@
 <head>
     <title>Login</title>
     <style>
-        /* Basic reset and centering */
+        
         body, html {
             height: 100%;
             margin: 0;

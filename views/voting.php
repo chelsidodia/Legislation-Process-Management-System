@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vote on Bills</title>
     <style>
-        /* Reset styles */
+        
         * {
             margin: 0;
             padding: 0;
@@ -13,7 +13,7 @@
             font-family: Arial, sans-serif;
         }
 
-        /* Body styling */
+        
         body {
             background-color: #f4f4f9;
             color: #333;
@@ -26,7 +26,7 @@
             background-size: cover;
         }
 
-        /* Container for main content */
+        
         .container {
             width: 100%;
             max-width: 800px;
@@ -37,14 +37,14 @@
             margin-top: 20px;
         }
 
-        /* Header styling */
+        
         h2 {
             color: #333;
             margin-bottom: 15px;
             text-align: center;
         }
 
-        /* Existing Bills section */
+        
         ul {
             list-style-type: none;
             padding-left: 0;
@@ -79,10 +79,10 @@
 <body>
 
     <div class="container">
-        <!-- Page Title -->
+        
         <h2>Vote on Bills</h2>
 
-        <!-- List of Bills -->
+        
         <ul>
             <?php
             $bills = json_decode(file_get_contents('../data/bills.json'), true);
