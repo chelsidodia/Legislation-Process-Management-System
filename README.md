@@ -2,11 +2,11 @@
 Legislation Process Management System for the Federal Parliament of Canada
 
 # Team Members
-Chelsi Dodia - Tech Lead (N01611038)
+Chelsi Dodia (Tech Lead / Full Stack Developer) 
 
-Jenish Tarsariya (N01604495)
+Jenish Tarsariya (Front End Developer)
 
-Gurusharan Singh (N01607756)
+Gurusharan Singh (Tester)
 
 # Work Distribution
 Chelsi Dodia - Tech Lead, Full Stack, Data Architect, Documentation
